@@ -1,0 +1,31 @@
+#detail {
+  .detail {
+    .container {
+      .my {
+        .card {
+          margin-top: 50px;
+          width: 255px;
+          padding: 13px;
+          padding-bottom: 20px;
+          h2 {
+            font-size: 17px;
+          }
+          img {
+            margin-left: 20px;
+          }
+          .detail {
+            .right {
+              display: flex;
+              gap: 10px;
+              justify-content: space-between;
+              align-items: center;
+            }
+          }
+        }
+        .card:hover {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+      }
+    }
+  }
+}

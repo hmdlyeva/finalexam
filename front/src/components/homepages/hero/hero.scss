@@ -1,0 +1,49 @@
+#hero {
+  .hero {
+    background-color: rgb(212, 233, 233);
+    padding-top: 40px;
+padding-bottom: 10px;
+    .container {
+      .my {
+        display: flex;
+        gap: 30px;
+        padding-top: 90px;
+        margin-left: 50px;
+        .left {
+          @media (max-width: 900px) {
+            padding-bottom: 60px;
+          }
+          width: 320px;
+          h1 {
+            font-size: 40px;
+          }
+          p {
+            margin-top: 30px;
+            color: gray;
+          }
+          button {
+            margin-top: 40px;
+            padding: 15px 25px;
+            background-color: red;
+            cursor: pointer;
+            border: none;
+            color: white;
+          }
+          button:hover {
+            background-color: rgb(255, 102, 0);
+          }
+        }
+        .right {
+          @media (max-width: 900px) {
+            display: none;
+          }
+          background-image: url("../../../assets/images/banner_img.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          height: 600px;
+          width: 700px;
+        }
+      }
+    }
+  }
+}

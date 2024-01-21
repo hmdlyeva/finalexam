@@ -1,0 +1,78 @@
+#bestsel {
+  .bestsel {
+    padding-top: 150px;
+    .container {
+      .my {
+        margin: 0px 30px;
+        .upper {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          padding-bottom: 60px;
+          .left {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+            p {
+              color: gray;
+            }
+            h1 {
+              font-size: 30px;
+            }
+          }
+          .right {
+            margin-top: 30px;
+          }
+        }
+
+        .cards {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+          .card {
+            width: 255px;
+            padding: 13px;
+            padding-bottom: 20px;
+            .image {
+              background-image: url("../../../assets/images/feature_2.png");
+              background-size: cover;
+              height: 300px;
+            }
+            .image1 {
+                background-image: url("../../../assets/images/feature_3.png");
+                background-size: cover;
+                height: 300px;
+              }
+               .image2 {
+                background-image: url("../../../assets/images/product_1.png");
+                background-size: cover;
+                height: 300px;
+              }
+            h2 {
+              font-size: 17px;
+            }
+            img {
+              margin-left: 20px;
+            }
+            .detail {
+              .right {
+                display: flex;
+                gap: 10px;
+                justify-content: space-between;
+                align-items: center;
+                .df {
+                  display: flex;
+                  gap: 10px;
+                }
+              }
+            }
+          }
+          .card:hover {
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          }
+        }
+      }
+    }
+  }
+}
